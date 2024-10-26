@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+}
+.header {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    margin: -2% -2%;
+    padding: 150px 20px;
+    margin-bottom: 7%;
+}
+.header p {
+     margin-top: -1.5%;
+     color: silver;
+}
+.header button {
+    color: white;
+    border: 1px solid rgb(245, 38, 73);
+    background-color: rgb(250, 38, 73);
+    padding: 8px 10px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+.about p {
+    color: silver;
+    font-size: 14px;
+}
+.about button {
+    color: white;
+    border: 1px solid rgb(245, 38, 73);
+    background-color: rgb(250, 38, 73);
+    padding: 8px 13px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.together {
+    display: flex;
+    justify-content: space-around;
+}
+.design p {
+    color: silver;
+    font-size: 14px;
+}
+.hrr  hr {
+    border-color: rgb(250, 38, 73);
+    width: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.lis1 p {
+    color: silver;
+    font-size: 7px;
+    margin-top: -1%;
+    margin-bottom: 10px;
+}
+#works .immg {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+#works img {
+    width: 100%;
+}
+footer {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+footer .btn {
+    padding: 10px 20px;
+    background-color: #ff0066;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+footer h2 {
+    margin-bottom: 30px;
+    margin-top: -2%;
+}
+.social-icons {
+    margin-top: 30px;
+    gap: 30px;
+}
+.final {
+    border: 1px solid black;
+    padding: 7px 1px;
+    color: white;
+    background-color: black;
+    margin: -2%;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: goldenrod;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    background: gainsboro;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: darkgoldenrod;
+}
+::-webkit-scrollbar-button {
+    background-color: yellow;
+}
+::-webkit-scrollbar-corner {
+    background: #555;
+}
